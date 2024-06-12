@@ -1,0 +1,33 @@
+.home-officel{
+    background-image: url("../img/homeoffice.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15%;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+    &-title{
+        color: white;
+        font-size: 22px;
+    }
+    &-disc{
+        color: white;
+    }
+    &-info{
+        color: white;
+    }
+}
+@media(min-width:992px){
+    .home-officel{
+        &-title{
+            color: white;
+            font-size: 32px;
+        }
+      
+    }
+}

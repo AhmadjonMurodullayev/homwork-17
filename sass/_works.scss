@@ -1,0 +1,33 @@
+.works{
+    margin: 0px 0px 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    &-title{
+        color: black;
+        font-weight: 400;
+    }
+    &-disc{
+        color: #A0A0A0;
+    }
+    &-box{
+        margin: 0px auto 90px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+@media(min-width:992px){
+    .works{
+        &-title{
+            font-size: 28px;
+            font-weight: 400;
+        }
+        &-disc{
+            font-size: 18px;
+            color: #A0A0A0;
+        }
+    }
+}
